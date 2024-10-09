@@ -2,7 +2,7 @@
     padding : 0;
     margin : 0;
     text-align : center;
-}
+} 
 
 .nav{
     background-color: #081b31;
@@ -71,4 +71,67 @@ img{
     font-size: 1.5rem;
     padding : 1rem;
     border-radius : 1rem;
+}
+
+.front{
+    height : 100vh;
+    width : 100%;
+    opacity : 1;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    flex-wrap : wrap;
+    flex-direction: column;
+    gap : 1.5rem;
+    background-image: url("cool_back.jpeg");
+    position : absolute;
+    transition : width 1s ease-in;
+    z-index: 2;
+}
+
+.front-h{
+    color : #efc0c0;
+}
+
+.front-inp{
+    transform : scale(1.5);
+}
+
+.front-inp:hover{
+    box-shadow : 2px 2px 7px #819081;
+}
+
+.front-b{
+    padding : 0.4rem 1.1rem;
+    border-radius : 8px;
+    border : 1px solid white;
+    font-size : 1.3rem;
+    background-color: aliceblue;
+}
+
+.front-b:hover{
+    box-shadow : 2px 2px 7px #819081;
+}
+
+.front-p{
+    margin-top : 1.5rem;
+    color : red;
+    font-size : 1.5rem;
+    background-color: white;
+    padding : 0 0.5rem;
+}
+
+.quit{
+    padding : 0.3rem 1rem;
+    border-radius : 8px;
+    border : 1px solid black;
+    font-size : 1.3rem;
+    background-color: rgb(200, 138, 138);
+    position : fixed;
+    margin-top : 0.13rem;
+    margin-left: 35rem;
+}
+
+.quit:hover{
+    box-shadow : 2px 2px 7px #819081;
 }
