@@ -12,7 +12,7 @@ const front_h = document.querySelector(".front-h");
 const front_i = document.querySelector(".front-inp");
 const front_p = document.querySelector(".front-p");
 const quit = document.querySelector(".quit");
-const choices_ = document.querySelector(".choices");
+const choices_ = document.querySelector("body");
 
 let val_stop = 0;
 let ting = new Audio("news-ting-6832.mp3");
